@@ -13,5 +13,5 @@ Gem::Specification.new do |s|
   s.files        = Dir.glob("lib/**/*") + %w(MIT-LICENSE README.rdoc Rakefile Gemfile)
   s.require_path = 'lib'
 
-  s.add_runtime_dependency("rails", ["~> 3.0.0"])
+  s.add_runtime_dependency("rails", [">= 3.0.0"])
 end
